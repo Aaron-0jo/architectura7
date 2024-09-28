@@ -6,7 +6,9 @@
 
 body {
   height: 100vh;
+  overflow-x: hidden;
 }
+
 
 header {
   background-color: #3c096c;
@@ -495,6 +497,10 @@ main {
 }
 
 @media screen and(min-width: 576px) {
+  body {
+    height: 100vh;
+    margin: 0 20px;
+    font-fa
 }
 
 @media screen and(min-width: 768px) {
@@ -503,9 +509,6 @@ main {
 @media screen and(min-width: 992px) {
 }
 
-@media screen and(min-width: 1200px) {
-}
 
-/* @media screen and(max-height:425px) (min-aspect-ratio:7/4) {
     
-} */
+
