@@ -138,9 +138,6 @@ header {
   float: left;
 }
 
-/* .arcimg { */
-/* } */
-
 .aimg {
   margin-top: 21px;
   margin-right: 50px;
@@ -496,17 +493,27 @@ main {
   color: #ffffff;
 }
 
-@media screen and(min-width: 576px) {
+@media screen and(max-width: 576px) {
   body {
     height: 100vh;
     margin: 0 20px;
-    font-fa
+    font-familly: inherit
 }
 
-@media screen and(min-width: 768px) {
+@media screen and(max-width: 768px) {
+    body {
+    height: 100vh;
+    margin: 0 20px;
+    font-familly: inherit
+}
 }
 
-@media screen and(min-width: 992px) {
+@media screen and(max-width: 992px) {
+    body {
+    height: 100vh;
+    margin: 0 20px;
+    font-familly: inherit
+}
 }
 
 
